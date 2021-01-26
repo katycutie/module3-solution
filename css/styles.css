@@ -2,38 +2,82 @@ body {
 	background-color: #fff;
 	color: #fff;
 	font-family: 'Oxygen', sans-serif;
+	box-sizing: border-box;
 }
 
 /** HEADER **/
+
 #header-nav {
 	background-color: #423C39;
 	border-radius: 0;
-	border: 0;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
 }
 
-.navbar-brand, .pull-left {
+.navbar-brand {
 	padding-top: 0;
-	margin-left: -50px;
+	margin: 10px;
 }
 
-.navbar-brand, .pull-left h1 { /**Restaurant Name**/
+.navbar-brand h1 { /**Restaurant Name**/
 	margin: 20px;
-	line-height: 1;
+	line-height: 0;
 }
 
-.navbar-brand, .pull-left a:any-link {
+.navbar-brand a:any-link {
 	color: #fff;
 	text-decoration: none;	
 }
 
+/**Button**/
+
+button {
+	margin: 20px;
+}
+
+#nav-list a {
+	text-align: center;
+	color: #fff;
+}
+
+#nav-list a:hover {
+	background: #000;
+}
+
+
 /**Our Menu**/
  h2 {
  	color: #000;
+ 	padding-bottom: 25px;
  }
 
 /**Food Class Divs**/
 .food {
-	margin: 70px;
+	margin: 10px;
 	background-color: #000;
 	padding: 20px;
+	height: 700px;
+}
+
+/* Media Queries */
+
+/************** Large Devices only ***************/
+@media (min-width: 1200px) {
+
+}
+
+/************** Medium Devices only ***************/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/************** Small Devices only ***************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/************** Extra Small Devices only ***************/
+@media (max-width: 767px) {
+
 }
