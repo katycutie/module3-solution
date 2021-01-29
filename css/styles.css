@@ -1,6 +1,5 @@
 body {
 	background-color: #fff;
-	color: #fff;
 	font-family: 'Oxygen', sans-serif;
 	box-sizing: border-box;
 }
@@ -39,6 +38,7 @@ button {
 #nav-list a {
 	text-align: center;
 	color: #fff;
+	background-color: #CA4909;
 }
 
 #nav-list a:hover {
@@ -54,30 +54,9 @@ button {
 
 /**Food Class Divs**/
 .food {
-	margin: 10px;
+	padding: 15px;
+	height: 2000px;
+	margin: 15px;
 	background-color: #000;
-	padding: 20px;
-	height: 700px;
-}
-
-/* Media Queries */
-
-/************** Large Devices only ***************/
-@media (min-width: 1200px) {
-
-}
-
-/************** Medium Devices only ***************/
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
-
-/************** Small Devices only ***************/
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
-
-/************** Extra Small Devices only ***************/
-@media (max-width: 767px) {
-
+	color: #fff;
 }
